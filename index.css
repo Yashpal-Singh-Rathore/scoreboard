@@ -50,22 +50,36 @@ body {
     border-radius: 6px;
 }
 
-
+.btn-secondary{
+    text-align: center;
+    color: orange;
+    width: 75px;
+    align-self: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* ----------------
         layout
 ------------------ */
 .container {
     display: flex;
-    justify-content: space-around;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     width: 575px;
-    height: 385px;
-    /* border: 5px solid red; */
+    height: 385px;    
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .inner-container {
     text-align: center;
 }
+
 
 
